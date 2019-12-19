@@ -1,0 +1,11 @@
+
+.etiquetaSearch {
+  background-color: #fff;
+    border-radius: 13px;
+    align-items: center;
+    justify-content: flex-end;    
+    box-sizing: border-box;
+    display: flex;
+    height: 55px;    
+    top: 7px;
+}
