@@ -10,10 +10,8 @@ import { FooterComponent } from './components/layout/footer/footer.component';
 import { HeaderComponent } from './components/layout/header/header.component';
 import { TestComponent } from './components/layout/test/test.component';
 
-import { FontAwesomeModule } from './fontawesome/angular-fontawesome';
-
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, FontAwesomeModule ],
+  imports:      [ BrowserModule, FormsModule ],
   declarations: [ AppComponent, HelloComponent, ProductComponent, ClientComponent, FooterComponent, HeaderComponent, TestComponent ],
   bootstrap:    [ AppComponent ]
 })
